@@ -21,3 +21,19 @@ Deliverables:
 • 1 – Documentation on how to run in the projects README.md file
 • 1 – Link to the project GitHub
         Donotincludethedata,onlytheinstructionsforgettingthedata
+
+
+Documentation:
+
+1. Open and Run All Cells from Data_Extraction.ipynb
+
+2. Open and Run All Cells from Data_Transformation.ipynb
+
+3. Open and Run the Table_Schema.sql file
+4. With the Table_Schema.sql file open import the data for the corresponding tables. 
+        each file should match the name of the table except for the contacts and crowdfunding campaign files, use the files that are labeled transformed. 
+
+        Use the import/export data tool via pgAdmin  to import data
+
+5. Open the Data_Validation.sql to pull the data from each table. 
+6. Close All Files
